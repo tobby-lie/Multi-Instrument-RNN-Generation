@@ -1,0 +1,849 @@
+Parsing midi_songs/0fithos.mid
+Parsing midi_songs/8.mid
+Parsing midi_songs/ahead_on_our_way_piano.mid
+Parsing midi_songs/AT.mid
+Parsing midi_songs/Fiend_Battle_(Piano).mid
+Parsing midi_songs/DOS.mid
+Parsing midi_songs/ff4-airship.mid
+Parsing midi_songs/FFVII_BATTLE.mid
+Parsing midi_songs/bcm.mid
+Parsing midi_songs/ff7themep.mid
+Parsing midi_songs/cosmo.mid
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:66: The name tf.get_default_graph is deprecated. Please use tf.compat.v1.get_default_graph instead.
+
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:541: The name tf.placeholder is deprecated. Please use tf.compat.v1.placeholder instead.
+
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:4432: The name tf.random_uniform is deprecated. Please use tf.random.uniform instead.
+
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:148: The name tf.placeholder_with_default is deprecated. Please use tf.compat.v1.placeholder_with_default instead.
+
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:3733: calling dropout (from tensorflow.python.ops.nn_ops) with keep_prob is deprecated and will be removed in a future version.
+Instructions for updating:
+Please use `rate` instead of `keep_prob`. Rate should be set to `rate = 1 - keep_prob`.
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/optimizers.py:793: The name tf.train.Optimizer is deprecated. Please use tf.compat.v1.train.Optimizer instead.
+
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:3576: The name tf.log is deprecated. Please use tf.math.log instead.
+
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/tensorflow_core/python/ops/math_grad.py:1424: where (from tensorflow.python.ops.array_ops) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use tf.where in 2.0, which has the same broadcast rule as np.where
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:1033: The name tf.assign_add is deprecated. Please use tf.compat.v1.assign_add instead.
+
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:1020: The name tf.assign is deprecated. Please use tf.compat.v1.assign instead.
+
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:3005: The name tf.Session is deprecated. Please use tf.compat.v1.Session instead.
+
+Epoch 1/200
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:190: The name tf.get_default_session is deprecated. Please use tf.compat.v1.get_default_session instead.
+
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:197: The name tf.ConfigProto is deprecated. Please use tf.compat.v1.ConfigProto instead.
+
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:207: The name tf.global_variables is deprecated. Please use tf.compat.v1.global_variables instead.
+
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:216: The name tf.is_variable_initialized is deprecated. Please use tf.compat.v1.is_variable_initialized instead.
+
+WARNING:tensorflow:From /usr/local/lib/python3.6/dist-packages/keras/backend/tensorflow_backend.py:223: The name tf.variables_initializer is deprecated. Please use tf.compat.v1.variables_initializer instead.
+
+6188/6188 [==============================] - 85s 14ms/step - loss: 4.3765 - acc: 0.0477
+
+Epoch 00001: loss improved from inf to 4.37654, saving model to weights-improvement-01-4.3765-bigger.hdf5
+Epoch 2/200
+6188/6188 [==============================] - 77s 12ms/step - loss: 4.1352 - acc: 0.0687
+
+Epoch 00002: loss improved from 4.37654 to 4.13516, saving model to weights-improvement-02-4.1352-bigger.hdf5
+Epoch 3/200
+6188/6188 [==============================] - 76s 12ms/step - loss: 4.0734 - acc: 0.0763
+
+Epoch 00003: loss improved from 4.13516 to 4.07340, saving model to weights-improvement-03-4.0734-bigger.hdf5
+Epoch 4/200
+6188/6188 [==============================] - 76s 12ms/step - loss: 3.9899 - acc: 0.0970
+
+Epoch 00004: loss improved from 4.07340 to 3.98986, saving model to weights-improvement-04-3.9899-bigger.hdf5
+Epoch 5/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 3.8636 - acc: 0.1052
+
+Epoch 00005: loss improved from 3.98986 to 3.86360, saving model to weights-improvement-05-3.8636-bigger.hdf5
+Epoch 6/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 3.7158 - acc: 0.1383
+
+Epoch 00006: loss improved from 3.86360 to 3.71584, saving model to weights-improvement-06-3.7158-bigger.hdf5
+Epoch 7/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 3.5272 - acc: 0.1681
+
+Epoch 00007: loss improved from 3.71584 to 3.52718, saving model to weights-improvement-07-3.5272-bigger.hdf5
+Epoch 8/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 3.3206 - acc: 0.1968
+
+Epoch 00008: loss improved from 3.52718 to 3.32056, saving model to weights-improvement-08-3.3206-bigger.hdf5
+Epoch 9/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 3.1127 - acc: 0.2274
+
+Epoch 00009: loss improved from 3.32056 to 3.11268, saving model to weights-improvement-09-3.1127-bigger.hdf5
+Epoch 10/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 2.9400 - acc: 0.2573
+
+Epoch 00010: loss improved from 3.11268 to 2.94001, saving model to weights-improvement-10-2.9400-bigger.hdf5
+Epoch 11/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 2.6963 - acc: 0.3056
+
+Epoch 00011: loss improved from 2.94001 to 2.69635, saving model to weights-improvement-11-2.6963-bigger.hdf5
+Epoch 12/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 2.4542 - acc: 0.3505
+
+Epoch 00012: loss improved from 2.69635 to 2.45419, saving model to weights-improvement-12-2.4542-bigger.hdf5
+Epoch 13/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 2.2038 - acc: 0.4048
+
+Epoch 00013: loss improved from 2.45419 to 2.20378, saving model to weights-improvement-13-2.2038-bigger.hdf5
+Epoch 14/200
+6188/6188 [==============================] - 75s 12ms/step - loss: 1.9542 - acc: 0.4494
+
+Epoch 00014: loss improved from 2.20378 to 1.95421, saving model to weights-improvement-14-1.9542-bigger.hdf5
+Epoch 15/200
+6188/6188 [==============================] - 77s 12ms/step - loss: 1.7259 - acc: 0.5066
+
+Epoch 00015: loss improved from 1.95421 to 1.72590, saving model to weights-improvement-15-1.7259-bigger.hdf5
+Epoch 16/200
+6188/6188 [==============================] - 78s 13ms/step - loss: 1.5036 - acc: 0.5617
+
+Epoch 00016: loss improved from 1.72590 to 1.50357, saving model to weights-improvement-16-1.5036-bigger.hdf5
+Epoch 17/200
+6188/6188 [==============================] - 78s 13ms/step - loss: 1.2804 - acc: 0.6261
+
+Epoch 00017: loss improved from 1.50357 to 1.28038, saving model to weights-improvement-17-1.2804-bigger.hdf5
+Epoch 18/200
+6188/6188 [==============================] - 78s 13ms/step - loss: 1.0969 - acc: 0.6773
+
+Epoch 00018: loss improved from 1.28038 to 1.09691, saving model to weights-improvement-18-1.0969-bigger.hdf5
+Epoch 19/200
+6188/6188 [==============================] - 79s 13ms/step - loss: 0.9336 - acc: 0.7225
+
+Epoch 00019: loss improved from 1.09691 to 0.93358, saving model to weights-improvement-19-0.9336-bigger.hdf5
+Epoch 20/200
+6188/6188 [==============================] - 79s 13ms/step - loss: 0.7761 - acc: 0.7704
+
+Epoch 00020: loss improved from 0.93358 to 0.77607, saving model to weights-improvement-20-0.7761-bigger.hdf5
+Epoch 21/200
+6188/6188 [==============================] - 78s 13ms/step - loss: 0.6557 - acc: 0.8114
+
+Epoch 00021: loss improved from 0.77607 to 0.65568, saving model to weights-improvement-21-0.6557-bigger.hdf5
+Epoch 22/200
+6188/6188 [==============================] - 79s 13ms/step - loss: 0.5411 - acc: 0.8423
+
+Epoch 00022: loss improved from 0.65568 to 0.54114, saving model to weights-improvement-22-0.5411-bigger.hdf5
+Epoch 23/200
+6188/6188 [==============================] - 78s 13ms/step - loss: 0.4585 - acc: 0.8643
+
+Epoch 00023: loss improved from 0.54114 to 0.45854, saving model to weights-improvement-23-0.4585-bigger.hdf5
+Epoch 24/200
+6188/6188 [==============================] - 78s 13ms/step - loss: 0.3820 - acc: 0.8912
+
+Epoch 00024: loss improved from 0.45854 to 0.38196, saving model to weights-improvement-24-0.3820-bigger.hdf5
+Epoch 25/200
+6188/6188 [==============================] - 79s 13ms/step - loss: 0.3442 - acc: 0.9017
+
+Epoch 00025: loss improved from 0.38196 to 0.34425, saving model to weights-improvement-25-0.3442-bigger.hdf5
+Epoch 26/200
+6188/6188 [==============================] - 79s 13ms/step - loss: 0.2823 - acc: 0.9192
+
+Epoch 00026: loss improved from 0.34425 to 0.28229, saving model to weights-improvement-26-0.2823-bigger.hdf5
+Epoch 27/200
+6188/6188 [==============================] - 80s 13ms/step - loss: 0.2611 - acc: 0.9294
+
+Epoch 00027: loss improved from 0.28229 to 0.26109, saving model to weights-improvement-27-0.2611-bigger.hdf5
+Epoch 28/200
+6188/6188 [==============================] - 80s 13ms/step - loss: 0.2264 - acc: 0.9384
+
+Epoch 00028: loss improved from 0.26109 to 0.22636, saving model to weights-improvement-28-0.2264-bigger.hdf5
+Epoch 29/200
+6188/6188 [==============================] - 79s 13ms/step - loss: 0.2028 - acc: 0.9491
+
+Epoch 00029: loss improved from 0.22636 to 0.20275, saving model to weights-improvement-29-0.2028-bigger.hdf5
+Epoch 30/200
+6188/6188 [==============================] - 79s 13ms/step - loss: 0.1863 - acc: 0.9525
+
+Epoch 00030: loss improved from 0.20275 to 0.18626, saving model to weights-improvement-30-0.1863-bigger.hdf5
+Epoch 31/200
+6188/6188 [==============================] - 80s 13ms/step - loss: 0.1555 - acc: 0.9620
+
+Epoch 00031: loss improved from 0.18626 to 0.15554, saving model to weights-improvement-31-0.1555-bigger.hdf5
+Epoch 32/200
+6188/6188 [==============================] - 79s 13ms/step - loss: 0.1593 - acc: 0.9615
+
+Epoch 00032: loss did not improve from 0.15554
+Epoch 33/200
+6188/6188 [==============================] - 79s 13ms/step - loss: 0.1369 - acc: 0.9677
+
+Epoch 00033: loss improved from 0.15554 to 0.13685, saving model to weights-improvement-33-0.1369-bigger.hdf5
+Epoch 34/200
+6188/6188 [==============================] - 80s 13ms/step - loss: 0.1233 - acc: 0.9717
+
+Epoch 00034: loss improved from 0.13685 to 0.12329, saving model to weights-improvement-34-0.1233-bigger.hdf5
+Epoch 35/200
+6188/6188 [==============================] - 80s 13ms/step - loss: 0.1215 - acc: 0.9707
+
+Epoch 00035: loss improved from 0.12329 to 0.12153, saving model to weights-improvement-35-0.1215-bigger.hdf5
+Epoch 36/200
+6188/6188 [==============================] - 80s 13ms/step - loss: 0.1068 - acc: 0.9753
+
+Epoch 00036: loss improved from 0.12153 to 0.10680, saving model to weights-improvement-36-0.1068-bigger.hdf5
+Epoch 37/200
+6188/6188 [==============================] - 80s 13ms/step - loss: 0.0888 - acc: 0.9783
+
+Epoch 00037: loss improved from 0.10680 to 0.08878, saving model to weights-improvement-37-0.0888-bigger.hdf5
+Epoch 38/200
+6188/6188 [==============================] - 80s 13ms/step - loss: 0.0926 - acc: 0.9777
+
+Epoch 00038: loss did not improve from 0.08878
+Epoch 39/200
+6188/6188 [==============================] - 80s 13ms/step - loss: 0.0875 - acc: 0.9793
+
+Epoch 00039: loss improved from 0.08878 to 0.08750, saving model to weights-improvement-39-0.0875-bigger.hdf5
+Epoch 40/200
+6188/6188 [==============================] - 80s 13ms/step - loss: 0.0963 - acc: 0.9788
+
+Epoch 00040: loss did not improve from 0.08750
+Epoch 41/200
+6188/6188 [==============================] - 80s 13ms/step - loss: 0.0933 - acc: 0.9814
+
+Epoch 00041: loss did not improve from 0.08750
+Epoch 42/200
+6188/6188 [==============================] - 81s 13ms/step - loss: 0.0776 - acc: 0.9809
+
+Epoch 00042: loss improved from 0.08750 to 0.07758, saving model to weights-improvement-42-0.0776-bigger.hdf5
+Epoch 43/200
+6188/6188 [==============================] - 81s 13ms/step - loss: 0.0800 - acc: 0.9834
+
+Epoch 00043: loss did not improve from 0.07758
+Epoch 44/200
+6188/6188 [==============================] - 81s 13ms/step - loss: 0.0701 - acc: 0.9848
+
+Epoch 00044: loss improved from 0.07758 to 0.07014, saving model to weights-improvement-44-0.0701-bigger.hdf5
+Epoch 45/200
+6188/6188 [==============================] - 81s 13ms/step - loss: 0.0640 - acc: 0.9848
+
+Epoch 00045: loss improved from 0.07014 to 0.06398, saving model to weights-improvement-45-0.0640-bigger.hdf5
+Epoch 46/200
+6188/6188 [==============================] - 81s 13ms/step - loss: 0.0624 - acc: 0.9859
+
+Epoch 00046: loss improved from 0.06398 to 0.06245, saving model to weights-improvement-46-0.0624-bigger.hdf5
+Epoch 47/200
+6188/6188 [==============================] - 81s 13ms/step - loss: 0.0657 - acc: 0.9845
+
+Epoch 00047: loss did not improve from 0.06245
+Epoch 48/200
+6188/6188 [==============================] - 81s 13ms/step - loss: 0.0618 - acc: 0.9867
+
+Epoch 00048: loss improved from 0.06245 to 0.06183, saving model to weights-improvement-48-0.0618-bigger.hdf5
+Epoch 49/200
+6188/6188 [==============================] - 81s 13ms/step - loss: 0.0538 - acc: 0.9888
+
+Epoch 00049: loss improved from 0.06183 to 0.05380, saving model to weights-improvement-49-0.0538-bigger.hdf5
+Epoch 50/200
+6188/6188 [==============================] - 81s 13ms/step - loss: 0.0655 - acc: 0.9864
+
+Epoch 00050: loss did not improve from 0.05380
+Epoch 51/200
+6188/6188 [==============================] - 81s 13ms/step - loss: 0.0618 - acc: 0.9851
+
+Epoch 00051: loss did not improve from 0.05380
+Epoch 52/200
+6188/6188 [==============================] - 81s 13ms/step - loss: 0.0513 - acc: 0.9879
+
+Epoch 00052: loss improved from 0.05380 to 0.05134, saving model to weights-improvement-52-0.0513-bigger.hdf5
+Epoch 53/200
+6188/6188 [==============================] - 81s 13ms/step - loss: 0.0540 - acc: 0.9890
+
+Epoch 00053: loss did not improve from 0.05134
+Epoch 54/200
+6188/6188 [==============================] - 81s 13ms/step - loss: 0.0515 - acc: 0.9885
+
+Epoch 00054: loss did not improve from 0.05134
+Epoch 55/200
+6188/6188 [==============================] - 81s 13ms/step - loss: 0.0388 - acc: 0.9914
+
+Epoch 00055: loss improved from 0.05134 to 0.03880, saving model to weights-improvement-55-0.0388-bigger.hdf5
+Epoch 56/200
+6188/6188 [==============================] - 81s 13ms/step - loss: 0.0526 - acc: 0.9872
+
+Epoch 00056: loss did not improve from 0.03880
+Epoch 57/200
+6188/6188 [==============================] - 81s 13ms/step - loss: 0.0474 - acc: 0.9888
+
+Epoch 00057: loss did not improve from 0.03880
+Epoch 58/200
+6188/6188 [==============================] - 81s 13ms/step - loss: 0.0480 - acc: 0.9887
+
+Epoch 00058: loss did not improve from 0.03880
+Epoch 59/200
+6188/6188 [==============================] - 81s 13ms/step - loss: 0.0520 - acc: 0.9895
+
+Epoch 00059: loss did not improve from 0.03880
+Epoch 60/200
+6188/6188 [==============================] - 81s 13ms/step - loss: 0.0474 - acc: 0.9906
+
+Epoch 00060: loss did not improve from 0.03880
+Epoch 61/200
+6188/6188 [==============================] - 81s 13ms/step - loss: 0.0394 - acc: 0.9905
+
+Epoch 00061: loss did not improve from 0.03880
+Epoch 62/200
+6188/6188 [==============================] - 81s 13ms/step - loss: 0.0357 - acc: 0.9924
+
+Epoch 00062: loss improved from 0.03880 to 0.03570, saving model to weights-improvement-62-0.0357-bigger.hdf5
+Epoch 63/200
+6188/6188 [==============================] - 81s 13ms/step - loss: 0.0679 - acc: 0.9866
+
+Epoch 00063: loss did not improve from 0.03570
+Epoch 64/200
+6188/6188 [==============================] - 80s 13ms/step - loss: 0.0284 - acc: 0.9947
+
+Epoch 00064: loss improved from 0.03570 to 0.02842, saving model to weights-improvement-64-0.0284-bigger.hdf5
+Epoch 65/200
+6188/6188 [==============================] - 79s 13ms/step - loss: 0.0488 - acc: 0.9885
+
+Epoch 00065: loss did not improve from 0.02842
+Epoch 66/200
+6188/6188 [==============================] - 79s 13ms/step - loss: 0.0467 - acc: 0.9898
+
+Epoch 00066: loss did not improve from 0.02842
+Epoch 67/200
+6188/6188 [==============================] - 77s 13ms/step - loss: 0.0488 - acc: 0.9913
+
+Epoch 00067: loss did not improve from 0.02842
+Epoch 68/200
+6188/6188 [==============================] - 76s 12ms/step - loss: 0.0398 - acc: 0.9918
+
+Epoch 00068: loss did not improve from 0.02842
+Epoch 69/200
+6188/6188 [==============================] - 75s 12ms/step - loss: 0.0325 - acc: 0.9913
+
+Epoch 00069: loss did not improve from 0.02842
+Epoch 70/200
+6188/6188 [==============================] - 75s 12ms/step - loss: 0.0403 - acc: 0.9911
+
+Epoch 00070: loss did not improve from 0.02842
+Epoch 71/200
+6188/6188 [==============================] - 75s 12ms/step - loss: 0.0325 - acc: 0.9926
+
+Epoch 00071: loss did not improve from 0.02842
+Epoch 72/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 0.0381 - acc: 0.9906
+
+Epoch 00072: loss did not improve from 0.02842
+Epoch 73/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 0.0328 - acc: 0.9918
+
+Epoch 00073: loss did not improve from 0.02842
+Epoch 74/200
+6188/6188 [==============================] - 75s 12ms/step - loss: 0.0362 - acc: 0.9918
+
+Epoch 00074: loss did not improve from 0.02842
+Epoch 75/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 0.0359 - acc: 0.9929
+
+Epoch 00075: loss did not improve from 0.02842
+Epoch 76/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0396 - acc: 0.9914
+
+Epoch 00076: loss did not improve from 0.02842
+Epoch 77/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0372 - acc: 0.9919
+
+Epoch 00077: loss did not improve from 0.02842
+Epoch 78/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0267 - acc: 0.9945
+
+Epoch 00078: loss improved from 0.02842 to 0.02667, saving model to weights-improvement-78-0.0267-bigger.hdf5
+Epoch 79/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0236 - acc: 0.9953
+
+Epoch 00079: loss improved from 0.02667 to 0.02365, saving model to weights-improvement-79-0.0236-bigger.hdf5
+Epoch 80/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0267 - acc: 0.9935
+
+Epoch 00080: loss did not improve from 0.02365
+Epoch 81/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0339 - acc: 0.9922
+
+Epoch 00081: loss did not improve from 0.02365
+Epoch 82/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 0.0204 - acc: 0.9958
+
+Epoch 00082: loss improved from 0.02365 to 0.02042, saving model to weights-improvement-82-0.0204-bigger.hdf5
+Epoch 83/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 0.0520 - acc: 0.9895
+
+Epoch 00083: loss did not improve from 0.02042
+Epoch 84/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0373 - acc: 0.9906
+
+Epoch 00084: loss did not improve from 0.02042
+Epoch 85/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0285 - acc: 0.9948
+
+Epoch 00085: loss did not improve from 0.02042
+Epoch 86/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0234 - acc: 0.9948
+
+Epoch 00086: loss did not improve from 0.02042
+Epoch 87/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0390 - acc: 0.9922
+
+Epoch 00087: loss did not improve from 0.02042
+Epoch 88/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0282 - acc: 0.9939
+
+Epoch 00088: loss did not improve from 0.02042
+Epoch 89/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0255 - acc: 0.9948
+
+Epoch 00089: loss did not improve from 0.02042
+Epoch 90/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0356 - acc: 0.9934
+
+Epoch 00090: loss did not improve from 0.02042
+Epoch 91/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0251 - acc: 0.9942
+
+Epoch 00091: loss did not improve from 0.02042
+Epoch 92/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0189 - acc: 0.9958
+
+Epoch 00092: loss improved from 0.02042 to 0.01892, saving model to weights-improvement-92-0.0189-bigger.hdf5
+Epoch 93/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0266 - acc: 0.9950
+
+Epoch 00093: loss did not improve from 0.01892
+Epoch 94/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 0.0385 - acc: 0.9924
+
+Epoch 00094: loss did not improve from 0.01892
+Epoch 95/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0292 - acc: 0.9940
+
+Epoch 00095: loss did not improve from 0.01892
+Epoch 96/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0274 - acc: 0.9934
+
+Epoch 00096: loss did not improve from 0.01892
+Epoch 97/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0244 - acc: 0.9953
+
+Epoch 00097: loss did not improve from 0.01892
+Epoch 98/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0563 - acc: 0.9900
+
+Epoch 00098: loss did not improve from 0.01892
+Epoch 99/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0175 - acc: 0.9952
+
+Epoch 00099: loss improved from 0.01892 to 0.01751, saving model to weights-improvement-99-0.0175-bigger.hdf5
+Epoch 100/200
+6188/6188 [==============================] - 75s 12ms/step - loss: 0.0431 - acc: 0.9911
+
+Epoch 00100: loss did not improve from 0.01751
+Epoch 101/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0385 - acc: 0.9914
+
+Epoch 00101: loss did not improve from 0.01751
+Epoch 102/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0273 - acc: 0.9939
+
+Epoch 00102: loss did not improve from 0.01751
+Epoch 103/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0384 - acc: 0.9931
+
+Epoch 00103: loss did not improve from 0.01751
+Epoch 104/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 0.0213 - acc: 0.9956
+
+Epoch 00104: loss did not improve from 0.01751
+Epoch 105/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0194 - acc: 0.9942
+
+Epoch 00105: loss did not improve from 0.01751
+Epoch 106/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0243 - acc: 0.9942
+
+Epoch 00106: loss did not improve from 0.01751
+Epoch 107/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0189 - acc: 0.9958
+
+Epoch 00107: loss did not improve from 0.01751
+Epoch 108/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 0.0362 - acc: 0.9927
+
+Epoch 00108: loss did not improve from 0.01751
+Epoch 109/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0237 - acc: 0.9943
+
+Epoch 00109: loss did not improve from 0.01751
+Epoch 110/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0194 - acc: 0.9948
+
+Epoch 00110: loss did not improve from 0.01751
+Epoch 111/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0212 - acc: 0.9948
+
+Epoch 00111: loss did not improve from 0.01751
+Epoch 112/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 0.0217 - acc: 0.9960
+
+Epoch 00112: loss did not improve from 0.01751
+Epoch 113/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0174 - acc: 0.9961
+
+Epoch 00113: loss improved from 0.01751 to 0.01743, saving model to weights-improvement-113-0.0174-bigger.hdf5
+Epoch 114/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0212 - acc: 0.9952
+
+Epoch 00114: loss did not improve from 0.01743
+Epoch 115/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0248 - acc: 0.9939
+
+Epoch 00115: loss did not improve from 0.01743
+Epoch 116/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 0.0181 - acc: 0.9960
+
+Epoch 00116: loss did not improve from 0.01743
+Epoch 117/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 0.0243 - acc: 0.9950
+
+Epoch 00117: loss did not improve from 0.01743
+Epoch 118/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0178 - acc: 0.9961
+
+Epoch 00118: loss did not improve from 0.01743
+Epoch 119/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 0.0235 - acc: 0.9958
+
+Epoch 00119: loss did not improve from 0.01743
+Epoch 120/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 0.0241 - acc: 0.9942
+
+Epoch 00120: loss did not improve from 0.01743
+Epoch 121/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 0.0309 - acc: 0.9935
+
+Epoch 00121: loss did not improve from 0.01743
+Epoch 122/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 0.0184 - acc: 0.9955
+
+Epoch 00122: loss did not improve from 0.01743
+Epoch 123/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 0.0188 - acc: 0.9955
+
+Epoch 00123: loss did not improve from 0.01743
+Epoch 124/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 0.0157 - acc: 0.9961
+
+Epoch 00124: loss improved from 0.01743 to 0.01566, saving model to weights-improvement-124-0.0157-bigger.hdf5
+Epoch 125/200
+6188/6188 [==============================] - 75s 12ms/step - loss: 0.0227 - acc: 0.9956
+
+Epoch 00125: loss did not improve from 0.01566
+Epoch 126/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 0.0337 - acc: 0.9948
+
+Epoch 00126: loss did not improve from 0.01566
+Epoch 127/200
+6188/6188 [==============================] - 75s 12ms/step - loss: 0.0323 - acc: 0.9940
+
+Epoch 00127: loss did not improve from 0.01566
+Epoch 128/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 0.0306 - acc: 0.9932
+
+Epoch 00128: loss did not improve from 0.01566
+Epoch 129/200
+6188/6188 [==============================] - 75s 12ms/step - loss: 0.0337 - acc: 0.9916
+
+Epoch 00129: loss did not improve from 0.01566
+Epoch 130/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 0.0251 - acc: 0.9931
+
+Epoch 00130: loss did not improve from 0.01566
+Epoch 131/200
+6188/6188 [==============================] - 75s 12ms/step - loss: 0.0221 - acc: 0.9952
+
+Epoch 00131: loss did not improve from 0.01566
+Epoch 132/200
+6188/6188 [==============================] - 75s 12ms/step - loss: 0.0228 - acc: 0.9942
+
+Epoch 00132: loss did not improve from 0.01566
+Epoch 133/200
+6188/6188 [==============================] - 76s 12ms/step - loss: 0.0212 - acc: 0.9955
+
+Epoch 00133: loss did not improve from 0.01566
+Epoch 134/200
+6188/6188 [==============================] - 75s 12ms/step - loss: 0.0217 - acc: 0.9942
+
+Epoch 00134: loss did not improve from 0.01566
+Epoch 135/200
+6188/6188 [==============================] - 75s 12ms/step - loss: 0.0211 - acc: 0.9947
+
+Epoch 00135: loss did not improve from 0.01566
+Epoch 136/200
+6188/6188 [==============================] - 75s 12ms/step - loss: 0.0288 - acc: 0.9942
+
+Epoch 00136: loss did not improve from 0.01566
+Epoch 137/200
+6188/6188 [==============================] - 76s 12ms/step - loss: 0.0219 - acc: 0.9940
+
+Epoch 00137: loss did not improve from 0.01566
+Epoch 138/200
+6188/6188 [==============================] - 76s 12ms/step - loss: 0.0176 - acc: 0.9952
+
+Epoch 00138: loss did not improve from 0.01566
+Epoch 139/200
+6188/6188 [==============================] - 76s 12ms/step - loss: 0.0184 - acc: 0.9953
+
+Epoch 00139: loss did not improve from 0.01566
+Epoch 140/200
+6188/6188 [==============================] - 76s 12ms/step - loss: 0.0157 - acc: 0.9958
+
+Epoch 00140: loss did not improve from 0.01566
+Epoch 141/200
+6188/6188 [==============================] - 76s 12ms/step - loss: 0.0124 - acc: 0.9966
+
+Epoch 00141: loss improved from 0.01566 to 0.01238, saving model to weights-improvement-141-0.0124-bigger.hdf5
+Epoch 142/200
+6188/6188 [==============================] - 76s 12ms/step - loss: 0.0119 - acc: 0.9961
+
+Epoch 00142: loss improved from 0.01238 to 0.01186, saving model to weights-improvement-142-0.0119-bigger.hdf5
+Epoch 143/200
+6188/6188 [==============================] - 77s 12ms/step - loss: 0.0228 - acc: 0.9953
+
+Epoch 00143: loss did not improve from 0.01186
+Epoch 144/200
+6188/6188 [==============================] - 76s 12ms/step - loss: 0.0234 - acc: 0.9952
+
+Epoch 00144: loss did not improve from 0.01186
+Epoch 145/200
+6188/6188 [==============================] - 75s 12ms/step - loss: 0.0245 - acc: 0.9945
+
+Epoch 00145: loss did not improve from 0.01186
+Epoch 146/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 0.0358 - acc: 0.9919
+
+Epoch 00146: loss did not improve from 0.01186
+Epoch 147/200
+6188/6188 [==============================] - 75s 12ms/step - loss: 0.0188 - acc: 0.9960
+
+Epoch 00147: loss did not improve from 0.01186
+Epoch 148/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 0.0267 - acc: 0.9943
+
+Epoch 00148: loss did not improve from 0.01186
+Epoch 149/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 0.0263 - acc: 0.9932
+
+Epoch 00149: loss did not improve from 0.01186
+Epoch 150/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 0.0143 - acc: 0.9960
+
+Epoch 00150: loss did not improve from 0.01186
+Epoch 151/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0170 - acc: 0.9953
+
+Epoch 00151: loss did not improve from 0.01186
+Epoch 152/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0161 - acc: 0.9956
+
+Epoch 00152: loss did not improve from 0.01186
+Epoch 153/200
+6188/6188 [==============================] - 71s 11ms/step - loss: 0.0155 - acc: 0.9963
+
+Epoch 00153: loss did not improve from 0.01186
+Epoch 154/200
+6188/6188 [==============================] - 72s 12ms/step - loss: 0.0709 - acc: 0.9874
+
+Epoch 00154: loss did not improve from 0.01186
+Epoch 155/200
+6188/6188 [==============================] - 71s 11ms/step - loss: 0.0105 - acc: 0.9973
+
+Epoch 00155: loss improved from 0.01186 to 0.01048, saving model to weights-improvement-155-0.0105-bigger.hdf5
+Epoch 156/200
+6188/6188 [==============================] - 71s 11ms/step - loss: 0.0193 - acc: 0.9948
+
+Epoch 00156: loss did not improve from 0.01048
+Epoch 157/200
+6188/6188 [==============================] - 70s 11ms/step - loss: 0.0135 - acc: 0.9961
+
+Epoch 00157: loss did not improve from 0.01048
+Epoch 158/200
+6188/6188 [==============================] - 71s 11ms/step - loss: 0.0336 - acc: 0.9939
+
+Epoch 00158: loss did not improve from 0.01048
+Epoch 159/200
+6188/6188 [==============================] - 71s 11ms/step - loss: 0.0183 - acc: 0.9950
+
+Epoch 00159: loss did not improve from 0.01048
+Epoch 160/200
+6188/6188 [==============================] - 71s 11ms/step - loss: 0.0333 - acc: 0.9932
+
+Epoch 00160: loss did not improve from 0.01048
+Epoch 161/200
+6188/6188 [==============================] - 70s 11ms/step - loss: 0.0481 - acc: 0.9922
+
+Epoch 00161: loss did not improve from 0.01048
+Epoch 162/200
+6188/6188 [==============================] - 70s 11ms/step - loss: 0.0256 - acc: 0.9942
+
+Epoch 00162: loss did not improve from 0.01048
+Epoch 163/200
+6188/6188 [==============================] - 71s 11ms/step - loss: 0.0206 - acc: 0.9960
+
+Epoch 00163: loss did not improve from 0.01048
+Epoch 164/200
+6188/6188 [==============================] - 72s 12ms/step - loss: 0.0163 - acc: 0.9966
+
+Epoch 00164: loss did not improve from 0.01048
+Epoch 165/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0173 - acc: 0.9952
+
+Epoch 00165: loss did not improve from 0.01048
+Epoch 166/200
+6188/6188 [==============================] - 71s 11ms/step - loss: 0.0222 - acc: 0.9947
+
+Epoch 00166: loss did not improve from 0.01048
+Epoch 167/200
+6188/6188 [==============================] - 71s 12ms/step - loss: 0.0114 - acc: 0.9971
+
+Epoch 00167: loss did not improve from 0.01048
+Epoch 168/200
+6188/6188 [==============================] - 75s 12ms/step - loss: 0.0167 - acc: 0.9950
+
+Epoch 00168: loss did not improve from 0.01048
+Epoch 169/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0137 - acc: 0.9969
+
+Epoch 00169: loss did not improve from 0.01048
+Epoch 170/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0244 - acc: 0.9953
+
+Epoch 00170: loss did not improve from 0.01048
+Epoch 171/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 0.0231 - acc: 0.9940
+
+Epoch 00171: loss did not improve from 0.01048
+Epoch 172/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0190 - acc: 0.9956
+
+Epoch 00172: loss did not improve from 0.01048
+Epoch 173/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0196 - acc: 0.9953
+
+Epoch 00173: loss did not improve from 0.01048
+Epoch 174/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0388 - acc: 0.9911
+
+Epoch 00174: loss did not improve from 0.01048
+Epoch 175/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 0.0562 - acc: 0.9897
+
+Epoch 00175: loss did not improve from 0.01048
+Epoch 176/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 0.0168 - acc: 0.9953
+
+Epoch 00176: loss did not improve from 0.01048
+Epoch 177/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0242 - acc: 0.9947
+
+Epoch 00177: loss did not improve from 0.01048
+Epoch 178/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0282 - acc: 0.9939
+
+Epoch 00178: loss did not improve from 0.01048
+Epoch 179/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0194 - acc: 0.9952
+
+Epoch 00179: loss did not improve from 0.01048
+Epoch 180/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 0.0200 - acc: 0.9945
+
+Epoch 00180: loss did not improve from 0.01048
+Epoch 181/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 0.0169 - acc: 0.9953
+
+Epoch 00181: loss did not improve from 0.01048
+Epoch 182/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 0.0250 - acc: 0.9940
+
+Epoch 00182: loss did not improve from 0.01048
+Epoch 183/200
+6188/6188 [==============================] - 73s 12ms/step - loss: 0.0162 - acc: 0.9945
+
+Epoch 00183: loss did not improve from 0.01048
+Epoch 184/200
+6188/6188 [==============================] - 75s 12ms/step - loss: 0.0170 - acc: 0.9961
+
+Epoch 00184: loss did not improve from 0.01048
+Epoch 185/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 0.0146 - acc: 0.9964
+
+Epoch 00185: loss did not improve from 0.01048
+Epoch 186/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 0.0171 - acc: 0.9953
+
+Epoch 00186: loss did not improve from 0.01048
+Epoch 187/200
+6188/6188 [==============================] - 74s 12ms/step - loss: 0.0111 - acc: 0.9958
+
+Epoch 00187: loss did not improve from 0.01048
+Epoch 188/200
+6188/6188 [==============================] - 75s 12ms/step - loss: 0.0184 - acc: 0.9953
+
+Epoch 00188: loss did not improve from 0.01048
+Epoch 189/200
+6188/6188 [==============================] - 75s 12ms/step - loss: 0.0126 - acc: 0.9964
+
+Epoch 00189: loss did not improve from 0.01048
+Epoch 190/200
+6188/6188 [==============================] - 75s 12ms/step - loss: 0.0215 - acc: 0.9953
+
+Epoch 00190: loss did not improve from 0.01048
+Epoch 191/200
+6188/6188 [==============================] - 75s 12ms/step - loss: 0.0156 - acc: 0.9956
+
+Epoch 00191: loss did not improve from 0.01048
+Epoch 192/200
+6188/6188 [==============================] - 75s 12ms/step - loss: 0.0153 - acc: 0.9952
+
+Epoch 00192: loss did not improve from 0.01048
+Epoch 193/200
+6188/6188 [==============================] - 75s 12ms/step - loss: 0.0164 - acc: 0.9958
+
+Epoch 00193: loss did not improve from 0.01048
+Epoch 194/200
+6188/6188 [==============================] - 75s 12ms/step - loss: 0.0195 - acc: 0.9956
+
+Epoch 00194: loss did not improve from 0.01048
+Epoch 195/200
+6188/6188 [==============================] - 80s 13ms/step - loss: 0.0243 - acc: 0.9942
+
+Epoch 00195: loss did not improve from 0.01048
+Epoch 196/200
+6188/6188 [==============================] - 76s 12ms/step - loss: 0.0131 - acc: 0.9953
+
+Epoch 00196: loss did not improve from 0.01048
+Epoch 197/200
+6188/6188 [==============================] - 75s 12ms/step - loss: 0.0209 - acc: 0.9950
+
+Epoch 00197: loss did not improve from 0.01048
+Epoch 198/200
+6188/6188 [==============================] - 75s 12ms/step - loss: 0.0094 - acc: 0.9973
+
+Epoch 00198: loss improved from 0.01048 to 0.00939, saving model to weights-improvement-198-0.0094-bigger.hdf5
+Epoch 199/200
+6188/6188 [==============================] - 76s 12ms/step - loss: 0.0152 - acc: 0.9958
+
+Epoch 00199: loss did not improve from 0.00939
+Epoch 200/200
+6188/6188 [==============================] - 76s 12ms/step - loss: 0.0254 - acc: 0.9940
+
+Epoch 00200: loss did not improve from 0.00939
+Loss
+[4.376537120951015, 4.135164451969001, 4.073395265019472, 3.9898595594173103, 3.8635996321978383, 3.715842017837702, 3.5271823540301037, 3.3205577573548153, 3.112681034232388, 2.9400080168871394, 2.6963481157151206, 2.454194570866876, 2.203780057743124, 1.9542104777167826, 1.725898971076773, 1.503573425677644, 1.2803757965140907, 1.0969092876740094, 0.9335788084602232, 0.7760712071318895, 0.655676253607139, 0.5411356928738457, 0.4585389076661663, 0.38196071251292496, 0.34424981458983117, 0.28228821980621865, 0.26108599974549274, 0.22635773550803306, 0.20275043168796905, 0.18626239432206193, 0.15554478623059656, 0.15934064406865478, 0.13685294116456506, 0.12328915578284877, 0.12152829355696901, 0.10680152605109834, 0.0887775761210772, 0.09259746189734284, 0.08750069893429413, 0.09629561098529665, 0.09326786752344719, 0.07758471878719864, 0.08000213839083611, 0.07014045941040796, 0.06397697262998138, 0.0624451364812567, 0.06571917433253144, 0.06183351539123536, 0.0538016735863858, 0.06551401844969394, 0.06181503785262396, 0.05134416322639837, 0.05403095283398059, 0.05154170377574904, 0.03879538429116875, 0.05263945303433506, 0.04738105023394169, 0.04796828130039169, 0.05198912821654724, 0.047427259538498474, 0.03940649877895939, 0.03569549197570674, 0.06794685060626442, 0.028416513319355425, 0.04879004627697377, 0.04665611415129798, 0.04881289595305804, 0.03984137432928617, 0.032509378976602187, 0.040317352897588116, 0.03249691714127515, 0.03810600687545901, 0.032807599426019615, 0.03624366408872581, 0.035944581731213086, 0.03964997984802455, 0.03717119217576048, 0.026665093928342834, 0.02364688229737484, 0.026727391764868963, 0.03394435199678038, 0.020421679906935972, 0.05204534671195911, 0.03729107659775914, 0.02845479419141732, 0.02337491517581296, 0.03899267531272416, 0.028160681752635513, 0.02551951939166586, 0.0355744031766633, 0.025139597270033624, 0.018917327763492562, 0.02655063250278419, 0.038461178747863936, 0.029212604295818314, 0.027392593301110556, 0.024363212089700555, 0.05627192792458932, 0.017507108990506358, 0.04306016236473821, 0.03853339129326228, 0.027322997645033972, 0.038368709745402095, 0.021304921839940382, 0.019359527508013008, 0.024325468650674458, 0.01885358876262448, 0.03615973465903253, 0.023729618632752518, 0.019414302041465457, 0.021197926590027283, 0.021716018259601042, 0.01742611803548921, 0.02120163770081068, 0.024831543955026326, 0.018108046178139114, 0.024333890373081996, 0.017784188383702312, 0.023455382383263862, 0.024090513454348154, 0.030935308295512894, 0.018407077679106782, 0.018826888111603893, 0.015662266067425996, 0.022686684460965927, 0.03367546784742157, 0.032318895021093044, 0.030633067956259225, 0.033706985552848685, 0.025076075547376894, 0.02214336114840646, 0.022834108250847432, 0.021198000493810078, 0.021731349080968448, 0.021059748405211305, 0.02881190778907606, 0.02190574514151904, 0.017637141253190033, 0.018377886495470078, 0.0157074378938027, 0.012384224967959812, 0.011856575667124678, 0.02283171491287061, 0.023419106627342867, 0.024536978494203315, 0.03581409590198132, 0.0187924244090341, 0.026683714955225427, 0.026276832613304435, 0.014296307143555162, 0.016979416691479038, 0.016127918139082015, 0.015507341701552308, 0.07092801970599506, 0.010484290473140477, 0.01929691399150321, 0.013489270517998203, 0.03361779801140149, 0.01832988395595283, 0.03331921942347411, 0.048117935105365627, 0.025587480086364606, 0.020631176812218575, 0.016340170245677528, 0.017279453284003713, 0.02222171979926193, 0.011369394637646284, 0.01674966504279792, 0.013728819129011664, 0.02436754055767303, 0.023109424520894536, 0.019036230991611742, 0.019563786984764013, 0.038776579160558974, 0.056240352392424954, 0.016824287109727682, 0.02417750271463215, 0.02819566988563922, 0.019408886982782435, 0.020031964343601286, 0.016941094657678776, 0.024963551772444074, 0.01623881466328487, 0.017032942211015527, 0.01458554915179581, 0.017087599647510738, 0.011095070093360651, 0.018416617680827512, 0.012551279464552936, 0.021486754241013536, 0.015601399706468257, 0.015310230718730748, 0.016418944636157607, 0.01952846028460305, 0.02427665312270778, 0.013093033610626038, 0.02089781604578409, 0.009388724548482663, 0.015226757546838584, 0.025433694845261583]
+Accuracy
+[0.04767291532479029, 0.06868131868131869, 0.07627666451195864, 0.09696186166774402, 0.10520361990950226, 0.1383322559889471, 0.16806722689557246, 0.1968325791903365, 0.22737556561085973, 0.25727213964434537, 0.3055914673609894, 0.3505171299481592, 0.4048157724435667, 0.44941822881072896, 0.5066257271754333, 0.561732385261797, 0.6260504201680672, 0.677278603749192, 0.7225274724889433, 0.7703619909116971, 0.8114091790562379, 0.8422753716871364, 0.8642533936651584, 0.8912411118293472, 0.9017453135100194, 0.9191984486487424, 0.9293794440853265, 0.9384292178409825, 0.9490950226244343, 0.9524886877828054, 0.9620232708468003, 0.9615384615769907, 0.9676793794826145, 0.9717194570521038, 0.9707498383968972, 0.9752747252747253, 0.9783451842660663, 0.9776987718164188, 0.9793148028442146, 0.9788299935358759, 0.981415643180349, 0.9809308338720103, 0.9833548804137039, 0.9848093083387202, 0.9848093083387202, 0.9859405300581772, 0.984486102133161, 0.986748545572075, 0.9888493859467387, 0.9864253393665159, 0.9851325145442793, 0.987879767291532, 0.989010989010989, 0.9885261797026503, 0.9914350355526826, 0.9872333548804137, 0.9888493859467387, 0.9886877828054299, 0.9894957983193278, 0.990627020077314, 0.9904654169360052, 0.9924046541693601, 0.9865869424692955, 0.9946670976082741, 0.9885261797026503, 0.9898190045248869, 0.9912734324499031, 0.9917582417582418, 0.9912734324499031, 0.9911118293471235, 0.9925662572721397, 0.9906270200387848, 0.991758241796771, 0.9917582417582418, 0.9928894634776988, 0.9914350355526826, 0.9919198448610214, 0.9945054945054945, 0.9953135100193924, 0.9935358758888171, 0.9922430510665805, 0.9957983193277311, 0.9894957983193278, 0.9906270200387848, 0.9948287007110537, 0.9948287007110537, 0.9922430510665805, 0.9938590820943762, 0.9948287007110537, 0.9933742727860375, 0.9941822882999354, 0.9957983193277311, 0.9949903038138332, 0.9924046541693601, 0.9940206851971558, 0.9933742727860375, 0.9953135100193924, 0.9899806076276665, 0.9951519069166128, 0.9911118293471235, 0.9914350355526826, 0.9938590820943762, 0.9930510665804784, 0.9956367162249515, 0.9941822883384646, 0.9941822882999354, 0.9957983193277311, 0.9927278603749192, 0.994343891402715, 0.9948287007110537, 0.9948287007110537, 0.9959599224305107, 0.9961215255332903, 0.9951519069166128, 0.9938590820943762, 0.9959599224305107, 0.9949903038138332, 0.9961215255332903, 0.9957983193277311, 0.9941822882999354, 0.9935358758888171, 0.995475113122172, 0.995475113122172, 0.9961215255332903, 0.9956367162634807, 0.9948287007110537, 0.9940206851971558, 0.9932126696832579, 0.9915966386554622, 0.9930510665804784, 0.9951519069166128, 0.9941822882999354, 0.995475113122172, 0.9941822882999354, 0.9946670976082741, 0.9941822882999354, 0.9940206851971558, 0.9951519069166128, 0.9953135100193924, 0.9957983193277311, 0.996606334841629, 0.9961215255332903, 0.9953135100193924, 0.9951519069166128, 0.9945054945054945, 0.9919198448610214, 0.9959599224305107, 0.994343891402715, 0.9932126696832579, 0.9959599224690399, 0.9953135100193924, 0.9956367162249515, 0.9962831286360698, 0.9873949579831933, 0.9972527472527473, 0.9948287007110537, 0.9961215255332903, 0.9938590820943762, 0.9949903038138332, 0.9932126696832579, 0.9922430511051097, 0.9941822882999354, 0.9959599224305107, 0.996606334841629, 0.9951519069166128, 0.9946670976082741, 0.9970911441499677, 0.9949903038138332, 0.9969295410471881, 0.9953135100193924, 0.9940206851971558, 0.9956367162249515, 0.9953135100193924, 0.9911118293471235, 0.9896574014221073, 0.9953135100193924, 0.9946670976082741, 0.9938590820943762, 0.9951519069166128, 0.9945054945054945, 0.9953135100193924, 0.9940206851971558, 0.9945054945054945, 0.9961215255332903, 0.9964447317388494, 0.9953135100193924, 0.9957983193277311, 0.9953135100193924, 0.9964447317388494, 0.9953135100193924, 0.9956367162249515, 0.9951519069166128, 0.9957983193277311, 0.9956367162249515, 0.9941822882999354, 0.9953135100193924, 0.9949903038138332, 0.9972527472527473, 0.9957983193277311, 0.9940206851971558]
