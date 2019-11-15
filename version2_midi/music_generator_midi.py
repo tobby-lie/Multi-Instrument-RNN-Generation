@@ -99,7 +99,7 @@ def create_network(network_input, n_vocab):
     model.compile(loss='categorical_crossentropy', optimizer='rmsprop')
 
     # Load the weights to each node
-    model.load_weights('weights-improvement-23-1.4321-bigger.hdf5')
+    model.load_weights('weights-improvement-198-0.0094-bigger.hdf5')
 
     return model
 
@@ -129,12 +129,17 @@ def generate_notes(model, network_input, pitchnames, n_vocab):
         # form prediction from model
         prediction = model.predict(prediction_input, verbose=0)
 
+        # get max value from prediction for index
         index = numpy.argmax(prediction)
+        # the result is the note at index
         result = int_to_note[index]
-        
+
+        # append result to prediction_output list       
         prediction_output.append(result)
 
+        # pattern appends index
         pattern.append(index)
+        # pattern equals pattern from 1 to length of pattern
         pattern = pattern[1:len(pattern)]
 
     return prediction_output
