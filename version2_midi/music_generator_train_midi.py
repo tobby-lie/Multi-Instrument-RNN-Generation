@@ -9,6 +9,10 @@ Original file is located at
 
 """ This module prepares midi file data and feeds it to the neural
     network for training """
+# set the matplotlib backend so figures can be saved in the background
+import matplotlib
+matplotlib.use("Agg")
+
 import glob
 import pickle
 import numpy
@@ -20,7 +24,8 @@ from keras.layers import LSTM
 from keras.layers import Activation
 from keras.utils import np_utils
 from keras.callbacks import ModelCheckpoint
-import time
+import matplotlib.pyplot as plt
+import numpy as np
 from google.colab import drive
 drive.mount('/content/drive')
 
@@ -44,7 +49,7 @@ def train_network():
     # create the model for training
     model = create_network(network_input, n_vocab)
 
-    train(model, network_input, network_output)
+    H = train(model, network_input, network_output)
 
 def get_notes():
     """ Get all the notes and chords from the midi files in the ./midi_songs directory """
@@ -161,23 +166,41 @@ def create_network(network_input, n_vocab):
     model.add(Dropout(0.3))
     model.add(Dense(n_vocab))
     model.add(Activation('softmax'))
-    model.compile(loss='categorical_crossentropy', optimizer='rmsprop')
+    model.compile(loss='categorical_crossentropy', optimizer='rmsprop', metrics=["accuracy"])
 
     return model
 
 def train(model, network_input, network_output):
     """ train the neural network """
+    nb_epochs = 200
     filepath = "weights-improvement-{epoch:02d}-{loss:.4f}-bigger.hdf5"
     checkpoint = ModelCheckpoint(
         filepath,
         monitor='loss',
-        verbose=0,
+        verbose=1,
         save_best_only=True,
         mode='min'
     )
     callbacks_list = [checkpoint]
 
-    model.fit(network_input, network_output, epochs=200, batch_size=64, callbacks=callbacks_list)
+    H = model.fit(network_input, network_output, epochs=nb_epochs, batch_size=32, callbacks=callbacks_list)
+    print("Loss")
+    print(H.history["loss"])
+    print("Accuracy")
+    print(H.history["acc"])
+
+    # plot the training loss and accuracy
+    plt.style.use("ggplot")
+    plt.figure()
+    N = nb_epochs
+    plt.plot(np.arange(0, N), H.history["loss"], label="train_loss")
+    plt.plot(np.arange(0, N), H.history["acc"], label="train_acc")
+    plt.plot(H.history["acc"])
+    plt.title("Training Loss and Accuracy")
+    plt.xlabel("Epoch #")
+    plt.ylabel("Loss/Accuracy")
+    plt.legend(loc="upper left")
+    plt.savefig("plot.png")
 
 if __name__ == '__main__':
     train_network()
